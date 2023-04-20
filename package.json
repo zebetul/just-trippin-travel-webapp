@@ -5,7 +5,7 @@
   "default": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Cristi Sebeni",
   "license": "ISC",
