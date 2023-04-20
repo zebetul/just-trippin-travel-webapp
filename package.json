@@ -1,0 +1,17 @@
+{
+  "name": "travel_app",
+  "version": "1.0.0",
+  "description": "Travel blog mock-up for learning purposes",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir"
+  },
+  "author": "Cristi Sebeni",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "parcel-transformer-html-datasrc": "^1.3.3"
+  }
+}

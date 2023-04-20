@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/scss/style.scss" />
+    <script
+      src="https://kit.fontawesome.com/1d3dac72fb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Travel Website</title>
+    <script type="module" src="src/js/main.js"></script>
+  </head>
+
+  <body>
+    <!-- BACKROUND IMAGE -->
+    <img
+      class="background lazy-img"
+      src="public/images/img_top/lazy/background_sunset_dark_lazy.jpg"
+      data-src="public/images/img_top/background_sunset_dark.jpg"
+      alt=""
+    />
+
+    <!-- NAVIGATION PANNEL -->
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="public/images/logo/tripppinlogo_bright.png"
+          alt="Tripppin' Logo"
+          class="nav__logo"
+          id="logo"
+        />
+
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">HOME</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">BLOG</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">FAVOURITES</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#section--4">ABOUT US</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >SIGN UP</a
+            >
+          </li>
+        </ul>
+
+        <!-- Menu icon -->
+        <svg
+          class="nav__icon"
+          viewBox="0 0 512 384"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <g stroke="none" stroke-width="1" fill-rule="evenodd">
+            <g transform="translate(0.000000, 0.250080)">
+              <rect x="0" y="0" width="512" height="62"></rect>
+              <rect x="0" y="161" width="512" height="62"></rect>
+              <rect x="0" y="321" width="512" height="62"></rect>
+            </g>
+          </g>
+        </svg>
+
+        <!-- Close menu icon -->
+        <svg
+          class="nav__close-icon"
+          viewBox="0 0 512 512"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <g stroke="none" stroke-width="1" fill-rule="evenodd">
+            <g transform="translate(0.000000, 0.000000)">
+              <polygon
+                points="512 38.4 473.6 0 256 217.6 38.4 0 0 38.4 217.6 256 0 473.6 38.4 512 256 294.4 473.6 512 512 473.6 294.4 256"
+              ></polygon>
+            </g>
+          </g>
+        </svg>
+      </nav>
+    </header>
+
+    <!-- SECTION HOME -->
+    <section class="home" id="section--1">
+      <div class="home__title-container">
+        <h1 class="home__title">ADVENTURE.&nbsp</h1>
+        <h1 class="home__title">EXPLORE.&nbsp</h1>
+        <h1 class="home__title">TRAVEL.</h1>
+      </div>
+
+      <div class="home__line-container">
+        <hr class="home__line" />
+      </div>
+
+      <p class="home__description"></p>
+
+      <p class="home__arrow">&darr;</p>
+    </section>
+
+    <!-- SECTION ARTICLES -->
+    <section class="section articles" id="section--2">
+      <div class="section__spacing">
+        <hr class="section__spacing__line" />
+        <h2 class="section__spacing__text">Latest entries</h2>
+      </div>
+
+      <div class="article">
+        <div class="article__image__contaier">
+          <img
+            src="public/images/img_articles/lazy/portugal_tiling_lazy.jpg"
+            data-src="public/images/img_articles/portugal_tiling.jpeg"
+            alt=""
+            class="article__image lazy-img"
+          />
+        </div>
+
+        <div class="article__text-container">
+          <h5 class="article__header">Tilings in Portugal</h5>
+
+          <p class="article__text">
+            Tiles are a huge part of Portuguese history and the two are really
+            inseparable...&nbsp<span
+              ><a class="article__link" href="#">Read</a></span
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="article">
+        <div class="article__image__contaier">
+          <img
+            class="article__image lazy-img"
+            src="public/images/img_articles/lazy/bioparc_lazy.jpg"
+            data-src="public/images/img_articles/bioparc.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="article__text-container">
+          <h5 class="article__header">Bioparc Valencia</h5>
+
+          <p class="article__text">
+            is a unique zoo. Its design employs the “zooimmersion” concept, in
+            which visitors are surrounded by meticulous recreations of the
+            natural habitats being presented...<span
+              ><a class="article__link" href="#">Read</a></span
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="article">
+        <div class="article__image__contaier">
+          <img
+            src="public/images/img_articles/lazy/portugal_porto_lazy.jpg"
+            data-src="public/images/img_articles/portugal_porto.jpeg"
+            alt=""
+            class="article__image lazy-img"
+          />
+        </div>
+
+        <div class="article__text-container">
+          <h5 class="article__header">Urban Art Porto</h5>
+
+          <p class="article__text">
+            Street art surprises visitors to Portugal. We are often surprised by
+            drawings on the streets, on billboards, on façades and large
+            walls...<span><a class="article__link" href="#">Read</a></span>
+          </p>
+        </div>
+      </div>
+
+      <a class="articles__link" href="#">More entries</a>
+    </section>
+
+    <!-- SECTION SLIDER -->
+    <section class="section" id="section--3">
+      <div class="section__spacing">
+        <hr class="section__spacing__line" />
+        <h2 class="section__spacing__text">Our Favourites</h2>
+      </div>
+
+      <div class="slider">
+        <div class="slider__slide">
+          <h3 class="slider__header">THE GEM ISLAND</h3>
+          <div class="slider__image-container">
+            <img
+              src="public/images/img_slider/lazy/italy_murano_lazy.jpg"
+              data-src="public/images/img_slider/italy_murano.jpeg"
+              alt=""
+              class="slider__img lazy-img"
+            />
+          </div>
+        </div>
+
+        <div class="slider__slide">
+          <h3 class="slider__header">URBAN CULTURE</h3>
+          <div class="slider__image-container">
+            <img
+              src="public/images/img_slider/lazy/Tirana_Albania_graffiti_lazy.jpg"
+              data-src="public/images/img_slider/Tirana_Albania_graffiti.jpg"
+              alt=""
+              class="slider__img lazy-img"
+            />
+          </div>
+        </div>
+
+        <div class="slider__slide">
+          <h3 class="slider__header">THE CITY OF ARTS AND SCIENCES</h3>
+          <div class="slider__image-container">
+            <img
+              src="public/images/img_slider/lazy/Valencia_Spain_lazy.jpg"
+              data-src="public/images/img_slider/Valencia_Spain.jpg"
+              alt=""
+              class="slider__img lazy-img"
+            />
+          </div>
+        </div>
+
+        <div class="slider__slide">
+          <h3 class="slider__header">THE VATICAN MUSEUM</h3>
+          <div class="slider__image-container">
+            <img
+              src="public/images/img_slider/lazy/Van_Gogh_Vatican_Italy_lazy.jpg"
+              data-src="public/images/img_slider/Van_Gogh_Vatican_Italy.jpg"
+              alt=""
+              class="slider__img lazy-img"
+            />
+          </div>
+        </div>
+
+        <div class="slider__slide">
+          <h3 class="slider__header">AMAZING ROME</h3>
+          <div class="slider__image-container">
+            <img
+              src="public/images/img_slider/lazy/Roma_Italy_lazy.jpg"
+              data-src="public/images/img_slider/Roma_Italy.jpg"
+              alt=""
+              class="slider__img lazy-img"
+            />
+          </div>
+        </div>
+
+        <div class="slider__slide">
+          <h3 class="slider__header">CULTURAL CROSSROAD</h3>
+          <div class="slider__image-container">
+            <img
+              src="public/images/img_slider/lazy/Tirana_Albania_lazy.jpg"
+              data-src="public/images/img_slider/Tirana_Albania.jpg"
+              alt=""
+              class="slider__img lazy-img"
+            />
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&lt;</button>
+        <button class="slider__btn slider__btn--right">&gt;</button>
+
+        <div class="slider__dots"></div>
+      </div>
+    </section>
+
+    <!-- SECTION ABOUT US -->
+    <section class="section" id="section--4">
+      <div class="section__spacing">
+        <hr class="section__spacing__line" />
+        <h2 class="section__spacing__text">About Us</h2>
+      </div>
+
+      <div class="counters">
+        <div class="counters__container countries">
+          <i class="far fa-map counters__icon"></i>
+          <p class="counters__counter" id="countries">0</p>
+          <p class="counters__text">Countries visited</p>
+        </div>
+
+        <div class="counters__container articles">
+          <i class="far fa-edit counters__icon"></i>
+          <p class="counters__counter" id="articles">0</p>
+          <p class="counters__text">Articles written</p>
+        </div>
+
+        <div class="counters__container followers">
+          <i class="far fa-user counters__icon"></i>
+          <p class="counters__counter" id="followers">0</p>
+          <p class="counters__text">Followers</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__social-media">
+        <h4 class="footer__social-media-header">FOLLOW US ON SOCIAL MEDIA:</h4>
+        <div class="footer__social-media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+      <p class="footer__disclaimer">
+        This is a mock-up travel website made for learning purposes.
+      </p>
+    </footer>
+
+    <!-- MODAL WINDOW -->
+    <div class="modal hidden">
+      <button class="modal__btn--close">&times;</button>
+      <h2 class="modal__header">
+        GET THE LATEST UPDATES STRAIGHT FROM US!<br />
+        in just 5 minutes
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="modal__btn--next">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
