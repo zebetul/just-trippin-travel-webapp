@@ -1,0 +1,35 @@
+.footer {
+  background-color: $color-secondary-darker;
+  color: $color-primary-darker;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+
+  &__social-media {
+    margin-bottom: 20px;
+  }
+
+  &__social-media-header {
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+
+  &__social-media-icons {
+    display: flex;
+    justify-content: center;
+
+    a {
+      color: $color-primary-darker;
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__disclaimer {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+}

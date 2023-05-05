@@ -1,0 +1,78 @@
+.home {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 85rem;
+
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+  color: $color-primary;
+
+  &__title-container {
+    position: absolute;
+
+    display: flex;
+  }
+
+  &__title {
+    @media (max-width: 900px) {
+      font-size: 3.3rem;
+    }
+
+    font-size: 6rem;
+    font-weight: 100;
+
+    opacity: 0%;
+  }
+
+  &__line-container {
+    @media (max-width: 900px) {
+      width: 36rem;
+      top: 38rem;
+    }
+
+    width: 66rem;
+    position: absolute;
+    top: 41rem;
+    overflow: hidden;
+  }
+
+  &__line {
+    height: 2px;
+    background-color: $color-tertiary;
+    opacity: 0%;
+    border: none;
+  }
+
+  &__description {
+    @media (max-width: 900px) {
+      top: 39rem;
+      width: 37rem;
+      font-size: 1.7rem;
+    }
+
+    position: absolute;
+    top: 42rem;
+    width: 65rem;
+
+    max-height: 20rem;
+
+    font-family: 'Nunito';
+    font-weight: 100;
+    font-size: 2rem;
+
+    overflow: hidden;
+  }
+
+  &__arrow {
+    position: absolute;
+    top: 55rem;
+    left: 50%;
+
+    font-size: 6rem;
+    opacity: 0%;
+    color: $color-tertiary;
+  }
+}
