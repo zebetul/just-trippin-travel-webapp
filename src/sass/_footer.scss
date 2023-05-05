@@ -1,7 +1,11 @@
 .footer {
+  @media (max-width: 900px) {
+    font-size: 2rem;
+  }
+
   background-color: $color-secondary-darker;
   color: $color-primary-darker;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 2rem;
   text-align: center;
 
@@ -20,7 +24,7 @@
 
     a {
       color: $color-primary-darker;
-      margin-right: 10px;
+      margin-right: 3rem;
 
       &:last-child {
         margin-right: 0;
@@ -30,6 +34,6 @@
 
   &__disclaimer {
     margin: 0;
-    font-size: 1.5rem;
+    // font-size: 2rem;
   }
 }
