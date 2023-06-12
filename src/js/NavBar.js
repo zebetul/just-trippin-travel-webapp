@@ -7,9 +7,7 @@ export default class NavBar {
 
   /**
    * Smooths scrolling until clicked section
-   *
    * When mouse over a navigation link, sets opacity to 50% to every other link
-   *
    * Add click event liestener to menu-icon and to close-icon when screen width is smaller then 900px, to open and close the menu
    * @author Cristi Sebeni
    */
@@ -37,7 +35,6 @@ export default class NavBar {
       });
     }
   }
-
   /**
    * smooth scroll into view animation
    * @param {Event} e click event on nav__links
@@ -54,14 +51,12 @@ export default class NavBar {
       document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
     }
   }
-
   #openMenu() {
     this.#navLinks.classList.toggle('show-menu');
 
     this.#navIcon.style.display = 'none';
     this.#closeIcon.style.display = 'block';
   }
-
   #closeMenu() {
     this.#navLinks.classList.toggle('show-menu');
 
